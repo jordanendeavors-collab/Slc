@@ -201,11 +201,26 @@ html[data-theme="light"] #weather-canvas{display:none}
 @media (prefers-reduced-motion:reduce){.rd-needle{transition:none}}
 
 </style>
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SLCWatch">
+<meta property="og:title" content="SLCWatch — Live weather, alerts, crime and local conditions for Salt Lake City, UT">
+<meta property="og:description" content="Live weather, National Weather Service alerts, police activity, earthquakes, wildfire reports, and local places for Salt Lake City, Utah.">
+<meta property="og:url" content="https://slcwatch.com/">
+<meta property="og:image" content="https://slcwatch.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SLCWatch front page: live weather, alerts and local conditions">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SLCWatch — Live weather, alerts, crime and local conditions for Salt Lake City, UT">
+<meta name="twitter:description" content="Live weather, National Weather Service alerts, police activity, earthquakes, wildfire reports, and local places for Salt Lake City, Utah.">
+<meta name="twitter:image" content="https://slcwatch.com/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "SLCWatch", "url": "https://slcwatch.com/", "description": "Live weather, National Weather Service alerts, police activity, earthquakes, wildfire reports, and local places for Salt Lake City, Utah.", "about": {"@type": "Place", "name": "Salt Lake City, UT"}, "inLanguage": "en-US"}</script>
 </head>
 <body>
 <div class="masthead">
   <div class="masthead-top">
-    <div class="site-name">SLC<span>Watch</span></div>
+    <h1 class="site-name" style="margin:0">SLC<span>Watch</span></h1>
     <div class="masthead-right">
       <div class="masthead-meta">Salt Lake City, UT<br><span id="live-time"></span></div>
       <span id="weather-badge" aria-live="polite"></span>

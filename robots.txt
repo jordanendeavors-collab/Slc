@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /checkup/
+
+Sitemap: https://slcwatch.com/sitemap.xml
